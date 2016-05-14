@@ -1,0 +1,128 @@
+#header{
+	width: 100%;
+	height: 15%;
+	background-color: black;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 0px;
+	left: 0px;
+}
+
+#content{
+	width: 100%;
+	height: 70%;
+	top: 15%;
+	background-image: url("../images/beach.jpg");
+	left: 0px;
+	background-size: 1500px 700px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#intro{
+	width: 500px;
+	height: 200px;
+	background-color: #000099;
+	margin: 0 auto;
+}
+
+#aboutme{
+	width: 900px;
+	height: 400px;
+	background-color: #000099;
+	margin: 0 auto;
+	border: 2px solid black;
+	margin-top: 20px;
+}
+
+#contactme{
+	width: 400px;
+	height: 200px;
+	background-color: #000099;
+	margin: 0 auto;
+	border: 2px solid black;
+	margin-top: 20px;
+	color: white;
+	font-size: 25px;
+}
+
+#contactme a{
+	color: red;
+	text-decoration: underline;
+}
+
+#footer{
+	background-color: #95a484;
+	height: 15%;
+	width: 100%;
+	position: absolute;
+	top: 85%;
+	left: 0;
+}
+
+ul{
+	float: left;
+}
+
+li{
+	display: inline;
+	color: white;
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	text-align: center;
+	background-color: blue;
+	border-radius: 10px;
+	padding: 10px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+}
+
+h1{
+	text-align: center;
+	color: yellow;
+}
+
+p{
+	color: yellow;
+	text-align: center;
+	font-size: 24px;
+}
+
+#button{
+	border: 2px solid red;
+	background-color: green;
+	border-radius: 10px;
+	width: 400px;
+	height: 70px;
+	margin: auto;
+	position: relative;
+}
+
+#button a{
+	text-decoration: none;
+	color: white;
+}
+
+#button2{
+	border: 2px solid red;
+	background-color: green;
+	border-radius: 10px;
+	width: 400px;
+	height: 70px;
+	margin-top: 20px;
+	margin: auto;
+	top: 20px;
+	position: relative;
+}
+
+#button2 a{
+	text-decoration: none;
+	color: white;
+}
